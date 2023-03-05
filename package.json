@@ -1,0 +1,31 @@
+{
+  "name": "drop-down-module",
+  "version": "1.0.0",
+  "description": "module to create reusable drop-down menus.",
+  "main": "dist/dropdown.bundle.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KGarvey92/drop-down-module.git"
+  },
+  "keywords": [
+    "drop-down"
+  ],
+  "author": "KGarvey92",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KGarvey92/drop-down-module/issues"
+  },
+  "homepage": "https://github.com/KGarvey92/drop-down-module#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
