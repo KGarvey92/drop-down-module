@@ -5,7 +5,7 @@ nav {
   background-color: beige;
 }
 
-.dropdown-parent {
+.parent {
   cursor: pointer;
 }
 
@@ -15,4 +15,31 @@ nav {
   padding: 1rem;
   background-color: inherit;
   cursor: pointer;
+}
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  transition: opacity 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 200px;
+  background-color: aquamarine;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.parent.open .child {
+  opacity: 1;
+  pointer-events: auto;
 }

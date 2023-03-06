@@ -2,7 +2,7 @@
   "name": "drop-down-module",
   "version": "1.0.0",
   "description": "module to create reusable drop-down menus.",
-  "main": "dist/dropdown.bundle.js",
+  "main": "dist/dropdown.js",
   "files": [
     "dist/"
   ],
